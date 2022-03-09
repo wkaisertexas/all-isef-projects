@@ -2,7 +2,8 @@
 
 This is a simple web scraper which gets all of the projects and abstract information from [here](https://abstracts.scienceforsociety.org). 
 
-My goal for this is for someone to get inspired to do a "meta" science fair project. Someone could look at what makes science fair projects sucessful *in* in science fair project. Comedy.
+### Goal
+I want someone to get inspired to do a "meta" science fair project. Someone could look at what makes science fair projects sucessful *in* in science fair project. Comedy.
 
 ---
 
@@ -18,4 +19,9 @@ At the end of running this program, a folder called `output` will be created and
 
 There is an older ISEF database that I already compiled, but this does not have the latest code.
 
-Finally: I wrote this program a really long time ago so please do not judge me for it. If someone actually decides to use this, please ask me if you have any questions. I will be happy to help. To sum, I really want someone to show up with a Meta Analysis of science fair projects.
+Finally: I wrote this program a really long time ago so please do not judge me for it. If someone actually decides to use this, please ask me if you have any questions. I will be happy to help. To sum, I really want someone to show up with a Meta-Analysis of Science fair Projects.
+
+### FAQ
+
+- Why did I not use beautiful soup or something like that?
+I was in Eight grade and did not know that existed.
