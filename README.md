@@ -8,7 +8,7 @@ I want someone to get inspired to do a "meta" science fair project. Someone coul
 ### To use:
 Run the code in Kaggle [here](https://www.kaggle.com/code/williamkaiser/get-isef-database).
 
-Alternatively, do not. There is already a dataset based on this scraping located [here]().
+Alternatively, do not. There is already a dataset based on this scraping located [here](https://www.kaggle.com/datasets/williamkaiser/all-isef-projects).
 
 #### History
 This was my first web-based programming project. Written in 8th grade, I wanted to inspire someone to make a meta science fair project. Because the original code was so terrible, I rewrote it in a Kaggle notebook, and the code turned out much cleaner (mostly due to tqdm). 
