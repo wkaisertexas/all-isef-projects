@@ -2,13 +2,17 @@
 
 This is a simple web scraper which gets all of the projects and abstract information from [Science for Society's website](https://abstracts.scienceforsociety.org). 
 
+> I wrote an **article** based on this data **[available on LinkedIn](https://www.linkedin.com/analytics/post-summary/urn:li:activity:7066812526662979584/)**.
+
+![Screenshot 2023-05-21 at 8 24 16 PM](https://github.com/wkaisertexas/all-isef-projects/assets/27795014/54caa8e8-9262-4204-8fa9-b61cf6b01c03)
+
+<p align="center"><strong>Check out the visualization at <a href="https://wkaisertexas.github.io/all-isef-projects"> wkaisertexas.github.io/all-isef-projects</a></strong></p>
+
 ### Goal
 I want someone to get inspired to do a "meta" science fair project. Someone could look at what makes science fair projects sucessful *in* in science fair project. Comedy.
 
 ### To use:
-Run the code in Kaggle [here](https://www.kaggle.com/code/williamkaiser/get-isef-database).
-
-Alternatively, do not. There is already a dataset based on this scraping located [here](https://www.kaggle.com/datasets/williamkaiser/all-isef-projects).
+Run the code in Kaggle [here](https://www.kaggle.com/datasets/williamkaiser/all-isef-projects).
 
 #### History
 This was my first web-based programming project. Written in 8th grade, I wanted to inspire someone to make a meta science fair project. Because the original code was so terrible, I rewrote it in a Kaggle notebook, and the code turned out much cleaner (mostly due to tqdm). 
