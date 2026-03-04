@@ -7,6 +7,7 @@ requires-python = ">=3.10,<3.13"
 dependencies = [
     "beautifulsoup4>=4.12.3",
     "bokeh>=3.7.3",
+    "lxml>=6.0.2",
     "matplotlib>=3.10.1",
     "numpy>=2.2.4",
     "openai>=1.66.3",
@@ -25,7 +26,12 @@ dependencies = [
 dev = [
     "ipykernel>=6.29.5",
     "jupyterlab>=4.3.6",
+    "ruff>=0.11.0",
 ]
 
 [tool.uv]
 package = false
+
+[tool.ruff]
+target-version = "py312"
+unsafe-fixes = true

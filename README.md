@@ -11,7 +11,18 @@ This is a simple web scraper which gets all of the projects and abstract informa
 ### Goal
 I want someone to get inspired to do a "meta" science fair project. Someone could look at what makes science fair projects sucessful *in* in science fair project. Comedy.
 
-### To use:
+### To use (local with uv):
+1. Install `uv`: https://docs.astral.sh/uv/getting-started/installation/
+2. Sync the project environment:
+   ```bash
+   uv sync --group dev
+   ```
+3. Open notebooks:
+   ```bash
+   uv run jupyter lab
+   ```
+
+### To use (Kaggle):
 Run the code in Kaggle [here](https://www.kaggle.com/datasets/williamkaiser/all-isef-projects).
 
 #### History
