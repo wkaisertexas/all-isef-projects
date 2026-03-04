@@ -21,6 +21,10 @@ I want someone to get inspired to do a "meta" science fair project. Someone coul
    ```bash
    uv run jupyter lab
    ```
+4. Generate embeddings parquet used by analysis notebook:
+   ```bash
+   uv run python scripts/create_embeddings_bge_m3.py
+   ```
 
 ### To use (Kaggle):
 Run the code in Kaggle [here](https://www.kaggle.com/datasets/williamkaiser/all-isef-projects).

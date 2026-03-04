@@ -16,6 +16,7 @@ dependencies = [
     "requests>=2.32.3",
     "scikit-learn>=1.6.1",
     "scipy>=1.15.2",
+    "sentence-transformers>=5.2.3",
     "squarify>=0.4.4",
     "tensorflow>=2.18.0",
     "tensorflow-hub>=0.16.1",
