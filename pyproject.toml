@@ -1,0 +1,38 @@
+[project]
+name = "all-isef-projects"
+version = "0.1.0"
+description = "Scraping and analysis notebooks for ISEF projects"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "bokeh>=3.7.3",
+    "lxml>=6.0.2",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "openai>=1.66.3",
+    "pandas>=2.2.3",
+    "pyarrow>=19.0.1",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "sentence-transformers>=5.2.3",
+    "squarify>=0.4.4",
+    "tensorflow>=2.18.0",
+    "tensorflow-hub>=0.16.1",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.3.6",
+    "ruff>=0.11.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+unsafe-fixes = true
